@@ -57,3 +57,35 @@ Angular CLI does not come with an end-to-end testing framework by default. You c
 ## Additional Resources
 
 For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+
+# 🚀 Angular DevContainer Starter
+
+Ce projet contient une application Angular prête à être utilisée dans un **DevContainer Docker avec VS Code**.
+
+## 📦 Contenu
+
+- ✅ Application Angular (`@angular/cli`)
+- 🐳 Docker avec Node.js et Angular CLI
+- ⚙️ Config DevContainer VS Code (`.devcontainer/`)
+- 🌐 Serveur Angular prêt à exposer sur le port 4200
+
+---
+
+## ⚙️ Prérequis
+
+Avant de commencer, assure-toi d’avoir installé :
+
+- [Docker Desktop](https://www.docker.com/products/docker-desktop)
+- [Visual Studio Code](https://code.visualstudio.com/)
+- [Extension "Dev Containers"](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers)
+
+---
+
+## 🚀 Démarrage rapide
+
+### 1. Clone le projet
+
+```bash
+git clone https://github.com/<ton-user>/<nom-du-repo>.git
+cd <nom-du-repo>
+code .
