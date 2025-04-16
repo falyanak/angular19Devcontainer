@@ -1,9 +1,8 @@
 import { Component, Input } from '@angular/core';
-import { CommonModule } from '@angular/common';  // Importer CommonModule
 
 @Component({
   selector: 'app-child',
-  imports: [CommonModule],
+  imports: [],
   templateUrl: './child.component.html',
   styleUrl: './child.component.css'
 })
